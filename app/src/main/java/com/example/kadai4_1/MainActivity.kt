@@ -66,12 +66,6 @@ class MainActivity : AppCompatActivity() {
                                     // 天気が表示される
                                         val jsonTelop = forecastJSON.getString("telop")
                                         cityWeather.text = jsonTelop
-
-
-
-
-
-
                                     }
 //                                }
                             }
